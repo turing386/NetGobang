@@ -88,8 +88,7 @@ public class ChessClient extends Frame implements ActionListener{
 		westPanel.add(userpad, BorderLayout.NORTH);
 		westPanel.setBackground(new Color(204, 204, 204));
 
-		// inputpad.inputWords.addKeyListener(this);
-		// inputpad.rename.addKeyListener(this);
+	
 
 		chesspad.host = controlpad.inputIP.getText();
 
