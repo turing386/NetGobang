@@ -41,7 +41,6 @@ public class ChessClient extends Frame implements ActionListener{
 	ControlPanel controlpad = new ControlPanel();// 控制 Panel 
 	ChessPanel chesspad = new ChessPanel();// 棋盘 Panel
 	
-	
 	Socket chatSocket;	
 	
 	DataInputStream in; 
@@ -87,9 +86,6 @@ public class ChessClient extends Frame implements ActionListener{
 		host = controlpad.inputIP.getText();
 		westPanel.setLayout(new BorderLayout());
 		westPanel.add(userpad, BorderLayout.NORTH);
-		
-		// westPanel.add(chatpad, BorderLayout.CENTER);
-		
 		westPanel.setBackground(new Color(204, 204, 204));
 
 		// inputpad.inputWords.addKeyListener(this);
