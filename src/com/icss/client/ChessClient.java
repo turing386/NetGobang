@@ -94,8 +94,7 @@ public class ChessClient extends Frame implements ActionListener{
 
 		centerPanel.add(chesspad, BorderLayout.CENTER);
 		
-		// centerPanel.add(inputpad, BorderLayout.SOUTH);
-		
+
 		centerPanel.setBackground(new Color(204, 204, 204));
 
 		controlpad.connectButton.addActionListener(this);
